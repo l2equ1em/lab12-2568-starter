@@ -133,9 +133,8 @@ export default function HomePage() {
                     />
 
                   <ActionIcon
-                    color="Red"
+                    color="red"
                     variant="light"
-                    size="xs"
                     onClick={() => deleteTask(task.id)} 
                   >
                     <IconTrash size={16} />
